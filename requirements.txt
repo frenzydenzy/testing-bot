@@ -1,0 +1,10 @@
+# Requirements - Testing Bot
+
+# No external dependencies for the base test project
+# Dependencies will be added as features are developed
+
+# When agent is installed, it will add:
+# - pytest (for testing)
+# - black (for code formatting)
+# - flake8 (for linting)
+# - pylint (for static analysis)

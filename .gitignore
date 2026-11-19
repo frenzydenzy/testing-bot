@@ -1,0 +1,39 @@
+# .gitignore - Testing Bot Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+.remediation/cache/
+.remediation/*.json
+!.remediation/config.json
+findings.json
+remediation.log
+
+# Temporary
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/

@@ -1,0 +1,11 @@
+{
+  "auto_approve": false,
+  "max_files": 10,
+  "severity_threshold": "LOW",
+  "enable_auto_fix": true,
+  "remediation_branch_prefix": "remediation",
+  "analysis_timeout": 30,
+  "log_level": "INFO",
+  "git_hook_enabled": true,
+  "notify_on_findings": true
+}
